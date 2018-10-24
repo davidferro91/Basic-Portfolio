@@ -15,7 +15,7 @@ header {
     width: 960px;
     height:94px;
     background: #ffffff;
-    margin:20px 20% 0px 20%;
+    margin:20px auto 0px 175px;
     
 }
 
@@ -82,7 +82,7 @@ header {
 }
 
 #mainContent {
-    width: 102.7%;
+    width: auto;
     background-image: url("Oriental.png");
     border-style:solid;
     border-width: 3px 0px 0px 0px;
@@ -93,7 +93,7 @@ header {
 .mainContentBox {
     width:910px;
     background-color: #ffffff;
-    margin: 10px 20% 20px 19.5%;
+    margin: 10px auto 20px 175px;
     padding:20px;
     border-color: #dddddd;
     border-width:5px;
@@ -263,7 +263,7 @@ h2 {
 }
 
 .footer {
-    width:100%;
+    width:auto;
     flex-shrink: 0;
     font-size: 20px;
     padding: 20px;
@@ -272,7 +272,7 @@ h2 {
     border-style: solid;
     border-width: 8px 0px 0px 0px;
     border-color: #4aaaa5;
-    text-align:center;
+    text-align: center;
     text-emphasis: bold;
 }
 
